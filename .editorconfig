@@ -1,0 +1,45 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 100
+trim_trailing_whitespace = true
+
+[*.cs]
+indent_size = 4
+
+[*.env]
+insert_final_newline = false
+
+[*.go]
+indent_size = 4
+indent_style = tab
+
+[*.html]
+indent_size = 4
+
+[*.md]
+indent_size = 4
+
+[*.ps1]
+indent_size = 4
+indent_style = tab
+
+[*.py]
+indent_size = 4
+
+[*.sh]
+indent_size = 4
+
+[*.xml]
+indent_size = 4
+
+[Makefile]
+indent_size = 4
+indent_style = tab
